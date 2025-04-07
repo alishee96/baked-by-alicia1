@@ -1,0 +1,122 @@
+<!-- Author of this page is Alicia Schrank -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact</title> 
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/miniproject.css">
+	<style type="text/css">
+	
+.contactsection {
+  width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff8f2;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.contactsection h2 {
+  color: #7b3f00;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contactsection p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #5a2e0a;
+}
+
+.contactform label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #5a2e0a;
+}
+
+.contactform input,
+.contactform textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ffd6c6;
+  border-radius: 8px;
+  background-color: #fffdfc;
+  font-size: 1rem;
+}
+
+.contactform button {
+  margin-top: 20px;
+  background-color: #ffcfcf;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: #5a2e0a;
+  cursor: pointer;
+  transition: transform 0.5s , background-color 0.5s;
+}
+
+.contactform button:hover {
+  background-color: #ffa9a9;
+  transform: scale(1.1);
+}
+
+	
+
+	</style>
+</head>
+
+<body>
+
+	<header>
+
+		<h1>Baked By Alicia </h1>
+		<p class="tagline">My Personal Baking Page!</p>
+		<nav>
+			<ul>
+			  <li><a href="homepage.html">Home</a></li>
+			  <li><a href="recipes1.html">Recipes</a></li>
+			  <li><a href="tools.html">Baking Tools</a></li>
+			  <li><a href="conversions.html">Conversions</a></li>
+			  <li><a href="resources.html">Resources</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			</ul>
+		  </nav>
+		  
+	</header>
+
+  <main>
+    <section class="contactsection">
+      <h2>Contact Me</h2>
+      <p>If you have any questions or recipes to share leave them here!</p>
+
+      <form class="contactform" action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+
+
+	
+	
+	<footer>
+		<p>&copy; 2025 Baked By Alicia</p>
+	  </footer>
+	 
+
+    </body>
+    </html>
